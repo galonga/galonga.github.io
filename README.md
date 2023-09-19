@@ -1,57 +1,9 @@
-p h o t o r a m a 
+G a l o n g A r t 
 ====================
 
-![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
-
-----------
-
----> [DEMO](https://sunbliss.github.io/photorama/ "DEMO")  <---
-
-----------
-
-A theme for **jekyll**. 
-
-Created for gh-pages (project page).
-
-This template was crafted having in mind the photobloggers and the artists.
-
-It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll "Clean Blog") as its basis.
-
-----------
-## Change Log
-
-### Version 2.2 (4/23/2018)
-
-<a href="https://github.com/sunbliss/photorama/wiki/How-to-get-SSL-on-Jekyll%3F"> How to get SSL Certificate (Https) For Jekyll</a>
-
-### Version 2.1 (3/22/2017)
-
-* Fixed script loading. 
-* Fixed padding bottom for the navbar toggle menu.
+Webpage based on **jekyll**, **GitHub Pages** and **Photorame** 
 
 
-### Version 2.0 (2/4/2017)
-
-* HTTPS is now enforced. 
-
-~~**Custom Domains are not supported.**~~
-
-~~For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
-Hoping Github developers will give its users the ability to add a custom domain served under security.~~
-
-### Version 1.2 (1/31/2017)
-
-* Fixed footer code so that the twitter icon links to the twitter_username instead of instagram_username.
-
-### Version 1.1 (7/15/2016)
-
-* Improved galleries and search section.
-* Better rendering of the header text.
-
-### Version 1.0 (6/19/2016)
-* Initial Template
-
-----------
 
  **IMPORTANT!!!**
 ================
@@ -66,9 +18,9 @@ The **BASEURL** should say `/repositoryname`
 
   nav:
 
-  - GALLERY: `"https://yourusername.github.io/repositoryname/gallery/"`
-  - JOURNAL: `"https://yourusername.github.io/repositoryname/journal/"`
-  - ABOUT: `"https://yourusername.github.io/repositoryname/about/`"
+  - GALLERY: `"https://galonga.github.io/gallery/"`
+  - JOURNAL: `"https://galonga.github.io/journal/"`
+  - ABOUT: `"https://galonga.github.io/about/`"
 
 If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!! 
 
@@ -92,7 +44,7 @@ Go to your domain name registrar and add a CNAME record pointing your domain to 
 Usage
 ============ 
 
-###Quick Start
+### Quick Start
 
 1. [Fork this repository](https://github.com/sunbliss/photorama/fork) to get started. 
 2. Go to `https://github.com/yourusername/photorama/settings`
@@ -100,7 +52,13 @@ Usage
 2. Create a new branch called `gh-pages` in your repository. 
 3. Go to the branches directory at `https://github.com/yourusername/repositoryname/branches` and *change* **default branch** to **gh-pages**.
 4. Delete **master** branch. 
-3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.  
+3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.
+
+### Run Locally
+1. `brew install rbenv`
+2. `rbenv install 3.1.3`
+3. `bundle install`
+4. `bundle exec jekyll serve`
 
 ----------
 
