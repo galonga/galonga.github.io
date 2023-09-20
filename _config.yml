@@ -34,9 +34,9 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "gallery/"
-  - JOURNAL: "journal/"
   - ABOUT: "about/"
   - IMPRESS: "https://galonga.de/impress.html"
+#- JOURNAL: "journal/"
 
 # All translation keys
 translations:
